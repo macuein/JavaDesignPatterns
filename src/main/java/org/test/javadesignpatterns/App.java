@@ -15,8 +15,8 @@ public class App
     {
 
 		//Singleton Pattern
-		SingletonPatternEx singleton = new SingletonPatternEx();
-		singleton.ExecutePattern();
+		//SingletonPatternEx singleton = new SingletonPatternEx();
+		//singleton.ExecutePattern();
 		
 		//Observer3 Pattern	
 		//Observer3PatternEx obsEx3 = new Observer3PatternEx();;
