@@ -3,6 +3,7 @@ package org.test.javadesignpatterns;
 import org.test.javadesignpatterns.observer.ObserverPatternEx;
 import org.test.javadesignpatterns.observer2.Observer2PatternEx;
 import org.test.javadesignpatterns.observer3.Observer3PatternEx;
+import org.test.javadesignpatterns.proxy.ProxyPatternEx;
 import org.test.javadesignpatterns.singleton.SingletonPatternEx;
 
 /**
@@ -14,6 +15,10 @@ public class App
 	public static void main( String[] args )
     {
 
+		//Proxy Pattern
+		ProxyPatternEx proxy = new ProxyPatternEx();
+		proxy.ExecutePattern();
+		
 		//Singleton Pattern
 		//SingletonPatternEx singleton = new SingletonPatternEx();
 		//singleton.ExecutePattern();
@@ -34,3 +39,4 @@ public class App
 
 	
 }
+		
