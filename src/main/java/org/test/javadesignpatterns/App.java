@@ -6,6 +6,7 @@ import org.test.javadesignpatterns.observer2.Observer2PatternEx;
 import org.test.javadesignpatterns.observer3.Observer3PatternEx;
 import org.test.javadesignpatterns.proxy.ProxyPatternEx;
 import org.test.javadesignpatterns.singleton.SingletonPatternEx;
+import org.test.javadesignpatterns.templatemethod.TemplateMethodEx;
 
 /**
  * Hello world!
@@ -16,9 +17,13 @@ public class App
 	public static void main( String[] args )
     {
 
+		//Template Method Pattern
+		//TemplateMethodEx tmplmethod = new TemplateMethodEx();
+		//tmplmethod.ExecutePattern();
+		
 		//Decorator Pattern
-		DecoratorPatternEx decorator = new DecoratorPatternEx();
-		decorator.ExecutePattern();
+		//DecoratorPatternEx decorator = new DecoratorPatternEx();
+		//decorator.ExecutePattern();
 		
 		//Proxy Pattern
 		//ProxyPatternEx proxy = new ProxyPatternEx();
