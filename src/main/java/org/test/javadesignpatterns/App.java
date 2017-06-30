@@ -1,5 +1,6 @@
 package org.test.javadesignpatterns;
 
+import org.test.javadesignpatterns.decorator.DecoratorPatternEx;
 import org.test.javadesignpatterns.observer.ObserverPatternEx;
 import org.test.javadesignpatterns.observer2.Observer2PatternEx;
 import org.test.javadesignpatterns.observer3.Observer3PatternEx;
@@ -15,9 +16,13 @@ public class App
 	public static void main( String[] args )
     {
 
+		//Decorator Pattern
+		DecoratorPatternEx decorator = new DecoratorPatternEx();
+		decorator.ExecutePattern();
+		
 		//Proxy Pattern
-		ProxyPatternEx proxy = new ProxyPatternEx();
-		proxy.ExecutePattern();
+		//ProxyPatternEx proxy = new ProxyPatternEx();
+		//proxy.ExecutePattern();
 		
 		//Singleton Pattern
 		//SingletonPatternEx singleton = new SingletonPatternEx();
