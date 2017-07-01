@@ -1,5 +1,6 @@
 package org.test.javadesignpatterns;
 
+import org.test.javadesignpatterns.adapter.AdapterPatternEx;
 import org.test.javadesignpatterns.decorator.DecoratorPatternEx;
 import org.test.javadesignpatterns.observer.ObserverPatternEx;
 import org.test.javadesignpatterns.observer2.Observer2PatternEx;
@@ -17,10 +18,13 @@ public class App
 {
 	public static void main( String[] args )
     {
+		//Adapter Pattern
+		AdapterPatternEx adapter = new AdapterPatternEx();
+		adapter.ExecutePattern();
 		
 		//Strategy Pattern
-		StrategyPatternEx strategy = new StrategyPatternEx();
-		strategy.ExecutePattern();
+		//StrategyPatternEx strategy = new StrategyPatternEx();
+		//strategy.ExecutePattern();
 
 		//Template Method Pattern
 		//TemplateMethodEx tmplmethod = new TemplateMethodEx();
