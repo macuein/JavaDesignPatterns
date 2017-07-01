@@ -6,6 +6,7 @@ import org.test.javadesignpatterns.observer2.Observer2PatternEx;
 import org.test.javadesignpatterns.observer3.Observer3PatternEx;
 import org.test.javadesignpatterns.proxy.ProxyPatternEx;
 import org.test.javadesignpatterns.singleton.SingletonPatternEx;
+import org.test.javadesignpatterns.strategypattern.StrategyPatternEx;
 import org.test.javadesignpatterns.templatemethod.TemplateMethodEx;
 
 /**
@@ -16,6 +17,10 @@ public class App
 {
 	public static void main( String[] args )
     {
+		
+		//Strategy Pattern
+		StrategyPatternEx strategy = new StrategyPatternEx();
+		strategy.ExecutePattern();
 
 		//Template Method Pattern
 		//TemplateMethodEx tmplmethod = new TemplateMethodEx();
