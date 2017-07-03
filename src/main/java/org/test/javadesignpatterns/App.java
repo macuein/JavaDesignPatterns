@@ -4,6 +4,7 @@ import org.test.javadesignpatterns.adapter.AdapterPatternEx;
 import org.test.javadesignpatterns.adapter2.Adapter2PatternEx;
 import org.test.javadesignpatterns.command.CommandPatternEx;
 import org.test.javadesignpatterns.decorator.DecoratorPatternEx;
+import org.test.javadesignpatterns.iterator.IteratorPatternEx;
 import org.test.javadesignpatterns.observer.ObserverPatternEx;
 import org.test.javadesignpatterns.observer2.Observer2PatternEx;
 import org.test.javadesignpatterns.observer3.Observer3PatternEx;
@@ -21,9 +22,13 @@ public class App
 	public static void main( String[] args )
     {
 		
+		//Iterator Pattern
+		IteratorPatternEx iterator = new IteratorPatternEx();
+		iterator.ExecutePattern();
+		
 		//Command Pattern
-		CommandPatternEx command = new CommandPatternEx();
-		command.ExecutePattern();
+		//CommandPatternEx command = new CommandPatternEx();
+		//command.ExecutePattern();
 		
 		//Adapter 2 Pattern
 		//Adapter2PatternEx adapter2 = new Adapter2PatternEx();
