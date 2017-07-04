@@ -5,6 +5,7 @@ import org.test.javadesignpatterns.adapter2.Adapter2PatternEx;
 import org.test.javadesignpatterns.command.CommandPatternEx;
 import org.test.javadesignpatterns.decorator.DecoratorPatternEx;
 import org.test.javadesignpatterns.facade.FacadePatternEx;
+import org.test.javadesignpatterns.factorymethod.FactoryMethodPatternEx;
 import org.test.javadesignpatterns.iterator.IteratorPatternEx;
 import org.test.javadesignpatterns.observer.ObserverPatternEx;
 import org.test.javadesignpatterns.observer2.Observer2PatternEx;
@@ -20,12 +21,16 @@ import org.test.javadesignpatterns.templatemethod.TemplateMethodEx;
  */
 public class App 
 {
-	public static void main( String[] args )
+	public static void main( String[] args ) throws Exception
     {
 		
+		//Factory Method Pattern
+		FactoryMethodPatternEx factory = new FactoryMethodPatternEx();
+		factory.ExecutePattern();
+		
 		//Facade Pattern
-		FacadePatternEx facade = new FacadePatternEx();
-		facade.ExecutePattern();
+		//FacadePatternEx facade = new FacadePatternEx();
+		//facade.ExecutePattern();
 		
 		//Iterator Pattern
 		//IteratorPatternEx iterator = new IteratorPatternEx();
