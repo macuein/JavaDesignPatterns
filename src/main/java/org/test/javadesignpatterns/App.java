@@ -7,6 +7,7 @@ import org.test.javadesignpatterns.decorator.DecoratorPatternEx;
 import org.test.javadesignpatterns.facade.FacadePatternEx;
 import org.test.javadesignpatterns.factorymethod.FactoryMethodPatternEx;
 import org.test.javadesignpatterns.iterator.IteratorPatternEx;
+import org.test.javadesignpatterns.memento.MementoPatternEx;
 import org.test.javadesignpatterns.observer.ObserverPatternEx;
 import org.test.javadesignpatterns.observer2.Observer2PatternEx;
 import org.test.javadesignpatterns.observer3.Observer3PatternEx;
@@ -24,9 +25,13 @@ public class App
 	public static void main( String[] args ) throws Exception
     {
 		
+		//Memento Pattern Example
+		MementoPatternEx memento = new MementoPatternEx();
+		memento.ExecutePattern();
+		
 		//Factory Method Pattern
-		FactoryMethodPatternEx factory = new FactoryMethodPatternEx();
-		factory.ExecutePattern();
+		//FactoryMethodPatternEx factory = new FactoryMethodPatternEx();
+		//factory.ExecutePattern();
 		
 		//Facade Pattern
 		//FacadePatternEx facade = new FacadePatternEx();
