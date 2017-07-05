@@ -13,6 +13,7 @@ import org.test.javadesignpatterns.observer2.Observer2PatternEx;
 import org.test.javadesignpatterns.observer3.Observer3PatternEx;
 import org.test.javadesignpatterns.proxy.ProxyPatternEx;
 import org.test.javadesignpatterns.singleton.SingletonPatternEx;
+import org.test.javadesignpatterns.state.StatePatternEx;
 import org.test.javadesignpatterns.strategypattern.StrategyPatternEx;
 import org.test.javadesignpatterns.templatemethod.TemplateMethodEx;
 
@@ -25,9 +26,14 @@ public class App
 	public static void main( String[] args ) throws Exception
     {
 		
+		//State Pattern Example
+		StatePatternEx statepat = new StatePatternEx();
+		statepat.ExecutePattern();
+		
+		
 		//Memento Pattern Example
-		MementoPatternEx memento = new MementoPatternEx();
-		memento.ExecutePattern();
+		//MementoPatternEx memento = new MementoPatternEx();
+		//memento.ExecutePattern();
 		
 		//Factory Method Pattern
 		//FactoryMethodPatternEx factory = new FactoryMethodPatternEx();
