@@ -2,6 +2,7 @@ package org.test.javadesignpatterns;
 
 import org.test.javadesignpatterns.adapter.AdapterPatternEx;
 import org.test.javadesignpatterns.adapter2.Adapter2PatternEx;
+import org.test.javadesignpatterns.builder.BuilderPatternEx;
 import org.test.javadesignpatterns.command.CommandPatternEx;
 import org.test.javadesignpatterns.decorator.DecoratorPatternEx;
 import org.test.javadesignpatterns.facade.FacadePatternEx;
@@ -26,10 +27,13 @@ public class App
 	public static void main( String[] args ) throws Exception
     {
 		
-		//State Pattern Example
-		StatePatternEx statepat = new StatePatternEx();
-		statepat.ExecutePattern();
+		//Builder Pattern
+		BuilderPatternEx builderpat = new BuilderPatternEx();
+		builderpat.ExecutePattern();
 		
+		//State Pattern Example
+		//StatePatternEx statepat = new StatePatternEx();
+		//statepat.ExecutePattern();
 		
 		//Memento Pattern Example
 		//MementoPatternEx memento = new MementoPatternEx();
