@@ -7,6 +7,8 @@ import org.test.javadesignpatterns.command.CommandPatternEx;
 import org.test.javadesignpatterns.decorator.DecoratorPatternEx;
 import org.test.javadesignpatterns.facade.FacadePatternEx;
 import org.test.javadesignpatterns.factorymethod.FactoryMethodPatternEx;
+import org.test.javadesignpatterns.flyweight.FlyweightPatternEx;
+import org.test.javadesignpatterns.flyweight2.FlyweightPatternModifiedEx;
 import org.test.javadesignpatterns.iterator.IteratorPatternEx;
 import org.test.javadesignpatterns.memento.MementoPatternEx;
 import org.test.javadesignpatterns.observer.ObserverPatternEx;
@@ -94,6 +96,15 @@ public class App
 		//Observer Pattern	
 		//ObserverPatternEx obsEx = new ObserverPatternEx();
 		//obsEx.ExecutePattern();
+		
+		//Flyweight Pattern
+		//FlyweightPatternEx flywEx = new FlyweightPatternEx();
+		//flywEx.ExecutePattern();
+		
+		//FlyweightModified Pattern
+		//FlyweightPatternModifiedEx flywEx2 = new FlyweightPatternModifiedEx();
+		//flywEx2.ExecutePattern();
+		
 		
     }
 
