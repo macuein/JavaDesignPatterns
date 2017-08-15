@@ -1,5 +1,6 @@
 package org.test.javadesignpatterns;
 
+import org.test.javadesignpatterns.abstractfactory.AbstractFactoryPatternEx;
 import org.test.javadesignpatterns.adapter.AdapterPatternEx;
 import org.test.javadesignpatterns.adapter2.Adapter2PatternEx;
 import org.test.javadesignpatterns.builder.BuilderPatternEx;
@@ -28,10 +29,6 @@ public class App
 {
 	public static void main( String[] args ) throws Exception
     {
-		
-		//Builder Pattern
-		BuilderPatternEx builderpat = new BuilderPatternEx();
-		builderpat.ExecutePattern();
 		
 		//State Pattern Example
 		//StatePatternEx statepat = new StatePatternEx();
@@ -104,7 +101,14 @@ public class App
 		//FlyweightModified Pattern
 		//FlyweightPatternModifiedEx flywEx2 = new FlyweightPatternModifiedEx();
 		//flywEx2.ExecutePattern();
+
+		//Builder Pattern
+		//BuilderPatternEx builderpat = new BuilderPatternEx();
+		//builderpat.ExecutePattern();		
 		
+		//Abstract Factory Pattern
+		//AbstractFactoryPatternEx afpex = new AbstractFactoryPatternEx();
+		//afpex.ExecutePattern();
 		
     }
 
