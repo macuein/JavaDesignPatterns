@@ -11,6 +11,7 @@ import org.test.javadesignpatterns.factorymethod.FactoryMethodPatternEx;
 import org.test.javadesignpatterns.flyweight.FlyweightPatternEx;
 import org.test.javadesignpatterns.flyweight2.FlyweightPatternModifiedEx;
 import org.test.javadesignpatterns.iterator.IteratorPatternEx;
+import org.test.javadesignpatterns.mediator.MediatorPatternEx;
 import org.test.javadesignpatterns.memento.MementoPatternEx;
 import org.test.javadesignpatterns.observer.ObserverPatternEx;
 import org.test.javadesignpatterns.observer2.Observer2PatternEx;
@@ -109,6 +110,10 @@ public class App
 		//Abstract Factory Pattern
 		//AbstractFactoryPatternEx afpex = new AbstractFactoryPatternEx();
 		//afpex.ExecutePattern();
+		
+		//Mediator Pattern
+		MediatorPatternEx mpex = new MediatorPatternEx();
+		mpex.ExecutePattern();
 		
     }
 
